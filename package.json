@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --hot",
-    "test": "jest"
+    "test": "jest",
+    "build:dev": "webpack",
+    "build:prod": "webpack -p --env production"
   },
   "dependencies": {
     "babel-core": "^6.26.0",
