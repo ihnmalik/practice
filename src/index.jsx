@@ -11,7 +11,7 @@ import { addExpense, removeExpense, editExpense } from './actions/expenses.jsx';
 import { setTextFilter } from './actions/filters.jsx';
 import getVisibleExpenses from './selectors/visibleExpenses.jsx';
 import 'react-dates/initialize';    //This is necessary for Single Date Picker
-
+import './firebase/firebase';
 
 var app = document.getElementById('content');
 
